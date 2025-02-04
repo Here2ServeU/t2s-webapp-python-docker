@@ -1,6 +1,4 @@
-Here’s the README.md content for all three projects, formatted properly for easy copy-paste.
-
-# T2S Course Enrollment App
+# T2S Course Enrollment App Using Docker
 
 This repository contains three different methods to containerize and deploy a Flask-based course enrollment application for **T2S Courses**.
 
