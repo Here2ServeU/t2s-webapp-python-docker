@@ -1,0 +1,10 @@
+lock_table_name = "terraform-lock-table"         # Specify the DynamoDB table to use for the backend
+aws_region      = "us-east-1"                    # Specify the Region where to deploy the infrastructure
+s3_bucket_name  = "my-terraform-backend-2025"    # The name of the backend bucket where to store the state file
+availability_zone = "us-east-1a"                 # Specify the Subnet where to deploy the infrastructure
+key_name               = "web-app-key-pair"      # Key pair name for this environment
+private_key_filename   = "web-app-key-pair.pem"  # Filename for the private key
+rsa_bits               = 2048                    # RSA bit length for private key
+ami_id           = "ami-0ba81b1086ea758e7"       # Replace it with the customized AMI ID
+instance_type    = "t2.micro"                    # Specify the EC2 Instance type
+instance_name    = "dev-web-app"                 # Specify the name of your EC2 Instance 
